@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}body{
+    background-image:linear-gradient(#0000008b, #000000e6),url(images/hero-bg.webp);
+    background-size: cover;  
+           background-repeat:no-repeat; 
+           background-attachment: fixed;    
+                     
+}header{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+ 
+}
+header>button{
+    padding: 10px 35px;
+    font-size: 20px;
+    border-radius:50px;
+    margin-top: 1rem;
+    border: solid white;
+    background-color: #161211;
+    color: white;
+    font-weight: 1000;
+       position: fixed;
+   
+}
+
+.section1{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+   margin-top:10rem; 
+ padding-left: 5rem;
+ background-color: transparent;
+
+}h1{
+    color: white;
+    font-size: 64px;
+    font-weight: 800;
+}.section1>p{
+    font-size: 28px;
+    margin-top: 1.6rem;
+    line-height: 2.3rem;
+    color: #989898;
+}#button>button{
+    padding:  15px 45px;
+    border-radius: 10px;
+    font-size: 25px;
+    border:1px solid #989898;
+    
+}#button{
+    display: flex;
+    margin-top:1.9rem ;
+   gap: 20px;
+}#button2{
+    background-color: transparent;
+    color: white;
+
+}#button2:hover{
+    border-color: white;
+   
+}#button1:hover{
+    box-shadow: 0px 0px 10px 6px #989898;
+}.section2{
+    color: white;
+}.section2images{
+    background-color: aliceblue;
+    filter: invert();
+}#section2{
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  padding: 10%; 
+  
+}p{
+    font-size: 59px;
+}#section2images{
+  display: flex;
+ gap: 6rem;
+ margin-top: 3rem;
+  
+}.section3{
+      max-width: 1100px;
+    width: 100%;
+    margin: 0px auto;
+   
+}
+.work>a,li{
+    color: #989898;
+}.work{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+
+}main{
+    background-color: black;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px;
+   border-bottom: 1px solid rgb(33, 29, 29);
+}.paragraph{
+   
+    font-size: 24px;
+    color: #989898;
+    line-height:30px;
+    margin-top: 1.5rem;
+}.dummy{
+   width: 523px;
+   height: 323px;
+}.ul{
+    padding-left: 1rem;
+    line-height: 2rem;
+   font-size: 20px;
+}.git{
+    color: antiquewhite;
+    line-height: 1rem;
+    font-size: 22px;
+    display: block;
+      padding-top: 2rem;
+}input{
+    border-bottom:2px solid rgb(41, 37, 37) ;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
