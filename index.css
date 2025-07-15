@@ -308,6 +308,8 @@ padding-left: 30px;
        @media only screen and (  max-width: 650px) {
         h1{
         font-size:1.845rem ;
+    }.section1>h1{
+        text-align: center;
     }
     .section1{
       margin-top: 250px;
@@ -315,7 +317,7 @@ padding-left: 30px;
       overflow:hidden ;
     }.section1>p{
         font-size:23px ;
-     
+     text-align: center;
     }#button>button{
     padding: 15px 25px;
     font-size: 18px;
@@ -377,6 +379,10 @@ font-size: 17px;
 }#section5{
     margin-top: 20px;
     padding-bottom: 20px;
+}#button{
+    display: flex;
+    flex-direction: column;
+    
 }
 
        }
