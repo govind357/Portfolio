@@ -38,16 +38,16 @@ header>button{
     height: 80vh;
     display: flex;
     flex-direction: column;
-   margin-top:10rem; 
- padding-left: 5rem;
  background-color: transparent;
-
+max-width: 1200px;
+margin: 10rem auto 0px auto;
+padding-left: 30px;
 }h1{
     color: white;
-    font-size: 64px;
+    font-size: 61px;
     font-weight: 800;
 }.section1>p{
-    font-size: 28px;
+    font-size: 26px;
     margin-top: 1.6rem;
     line-height: 2.3rem;
     color: #989898;
@@ -84,7 +84,18 @@ header>button{
   
 }p{
     font-size: 59px;
-}#section2images{
+}.h2{
+    color: white; 
+    font-size: 59px; 
+    text-align: center;
+    margin-bottom: 5rem;
+    font-weight:  900;
+}h3{
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+}
+#section2images{
   display: flex;
  gap: 6rem;
  margin-top: 3rem;
@@ -94,6 +105,14 @@ header>button{
     width: 100%;
     margin: 0px auto;
    
+}.section3>h2{
+        color: white;
+         font-size: 59px; 
+         text-align: center; 
+         margin-top:14rem;
+          margin-bottom: 5rem;
+          font-weight:bolder;
+          font-weight:  900;
 }
 .work>a,li{
     color: #989898;
@@ -101,6 +120,7 @@ header>button{
     display: flex;
     flex-direction: row;
    justify-content: space-between;
+   padding: 0px 20px;
 
 }main{
     background-color: black;
@@ -131,4 +151,232 @@ header>button{
     border-left: none;
     border-top: none;
     border-right: none;
+}.toolKit{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}#section5{
+    max-width: 1100px; 
+    margin: 0px auto; 
+    padding-bottom: 8rem; 
+    margin-top: 10rem;
+}#section5>h2{
+    color: white;
+     font-size: 49px;
+     text-align: center;
+     margin-top: 3rem;
+     margin-bottom: 5rem;
+}.lastsection{
+    display: flex;flex-direction: row;width: 100%; border: 1px solid  #161211;
+}#Available{
+    width: 499px;padding: 70px 20px; background-color: transparent;
+}form{
+    background-color: #161211;
+    gap: .6rem;
+    display: flex;
+     flex-direction: column; 
+     width: 90%;
+     padding-bottom: 5.6rem ;
+     padding-top: 2rem;
+}footer{
+    background-color: black; padding: 8rem 2rem;
+}#footer{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}#social{
+    display: flex;
+    gap: 2.5rem;
+}#toolKit{
+    font-size: 43px;
+    color: white;
+     text-align: center;
+     margin-top:10rem ;
+     margin-bottom:6rem ;
 }
+.tools{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+ @media only screen and (  max-width: 840px) {
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+        
+    body{
+            
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    }h1{
+        font-size:2.845rem ;
+    }
+    .section1{
+      margin-top: 250px;
+      padding: 30px;
+      overflow:hidden ;
+    }.section1>p{
+        font-size:23px ;
+     
+    }#button>button{
+    padding: 25px 50px;
+    font-size: 18px;
+}header>button{
+    margin-top: 30px;
+    margin-right: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    z-index: 10;
+}#section2images{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+}.last{
+    display: none;
+}.h2{
+    font-size: 40px;
+}.work{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0px 10px;
+  gap: 20px;
+}.dummy{
+   width: 628px;
+
+    max-height:356px;
+    
+    
+}.content{
+    width: 628px;
+}.section3>h2{
+    font-size: 40px;
+    margin-top: 4rem;
+}h3{
+   font-size: 28px;
+   font-weight: 500;
+}.toolKit{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+   
+     gap: 30px;
+
+}#toolKit{
+    margin-top: 20px;
+    margin-bottom:15px;
+}
+.toolKit>div{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}.lastsection{
+    display: flex;
+    flex-direction: column-reverse;
+    
+}#section5{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+#Available{
+    text-align: center;
+    width: 100%;
+}#Available>p{
+    width: 80%;
+    margin-left:  auto;
+    margin-right: auto;
+}form{
+    width: 90%;
+    margin: 0px auto;
+}#footer{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+      }
+       
+       @media only screen and (  max-width: 650px) {
+        h1{
+        font-size:1.845rem ;
+    }
+    .section1{
+      margin-top: 250px;
+      padding: 30px;
+      overflow:hidden ;
+    }.section1>p{
+        font-size:23px ;
+     
+    }#button>button{
+    padding: 15px 25px;
+    font-size: 18px;
+}header>button{
+    margin-top: 30px;
+    margin-right: 30px;
+    padding: 8px 20px;
+    font-size: 13px;
+    z-index: 10;
+}.section2images{
+    width: 100px;
+}
+#section2images{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+   
+    margin: 8px;
+}
+.last,.secondLast{
+    display: none;
+}.h2{
+    font-size: 30px;
+}.work{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0px 10px;
+  gap: 20px;
+}.dummy{
+     max-width: 628px;
+    width: 100%;
+    margin: 0px auto;  
+    max-height:356px;
+    height: 90%; 
+}.content{
+    max-width: 628px;
+    width: 90%;
+    margin: 0px auto;
+}.content>p,li{
+font-size: 17px;
+
+}
+.section3>h2{
+    font-size: 30px;
+    margin-top: 4rem;
+}h3{
+   font-size: 20px;
+   font-weight: 500;
+}#section5>h2{
+    font-size: 30px;
+}#toolKit{
+    font-size: 30px;
+
+}.tools>#toolKit{
+  margin-top: 20px;
+  margin-bottom:10px ;
+}#section5{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+       }
